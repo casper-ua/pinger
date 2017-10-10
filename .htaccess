@@ -1,0 +1,9 @@
+Options -Indexes
+<Files pinger.pl>
+    Order Allow,Deny
+    Deny from All
+</Files>
+<Files pinger.conf>
+    Order Allow,Deny
+    Deny from All
+</Files>
